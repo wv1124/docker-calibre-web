@@ -30,7 +30,8 @@ ENV \
     # - AMAZON_KG_*: KindleGen is a command line tool which enables publishers to work 
     # in an automated environment with a variety of source content including HTML, XHTML or EPUB
     AMAZON_KG_TAR="kindlegen_linux_2.6_i386_v2_9.tar.gz" \
-    AMAZON_KG_URL="http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz" \
+    #AMAZON_KG_URL="http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz" \
+    AMAZON_KG_URL="http://s3.amazonaws.com/kindlegen/kindlegen_linux_2.6_i386_v2_8.tar.gz" \
 
     # - CALIBRE_PATH: Configure the path where the Calibre database is located
     CALIBRE_PATH="/books" \
